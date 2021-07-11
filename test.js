@@ -102,7 +102,7 @@ window.addEventListener('scroll', function() {
 var brochureimages = document.getElementsByClassName('brochurepic');
 
 window.addEventListener('scroll', function() {
-  if (window.scrollY >= 6000) {
+  if (window.scrollY >= 5700) {
     [].forEach.call(brochureimages, function(image) {
       image.classList.add('brochurepicscroll');
     });
